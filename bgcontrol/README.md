@@ -2,6 +2,7 @@
 `scenecontrol(0,bgcreate,x);`: create background from x.jpg (x has to be number)  
 `scenecontrol(timing,bgshow,x,duration);` show x.jpg in duration (background has to be created first)  
 `scenecontrol(timing,bghide,x,duration);` hide x.jpg in duration (background has to be created first)  
+`scenecontrol(timing,bgsetlayer,x,y);` set x.jpg layer to y (background has to be created first)  
 
 # Example
 `scenecontrol(0,bgcreate,0);`: create background from 0.jpg  

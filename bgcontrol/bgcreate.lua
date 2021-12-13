@@ -1,4 +1,4 @@
-function initcreatebg(currentTiming, duration, index)
+function initcreatebg(currentTiming, index)
     bg.setColor(255, 255, 255, 0)
     bg.setLayerName("Background")
 end
