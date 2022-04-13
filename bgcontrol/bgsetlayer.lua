@@ -3,6 +3,6 @@ function initsetlayerbg(currentTiming, index, layer)
 end
 
 function onAffCommand(timing, index, layer)
-    bg = Scene.createSprite("bgcontrol" .. tostring(index), tostring(index) .. ".jpg")
+    bg = Scene.getSprite("bgcontrol" .. tostring(index))
     register(bg, timing-1, 1, "initsetlayerbg")
 end
