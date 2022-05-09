@@ -1,7 +1,8 @@
 # aff syntax  
 `scenecontrol(timing,trackhide);`  
 `scenecontrol(timing,trackshow);`  
-`scenecontrol(timing,uidisplay,durationInSeconds,alpha);` - Control UI transparency
+`scenecontrol(timing,trackdisplay,durationInSeconds,alpha);` - Control track transparency  
+`scenecontrol(timing,uidisplay,durationInSeconds,alpha);` - Control UI transparency  
 `scenecontrol(timing,hidegroup,0.00,0);` - Show timinggroup  
 `scenecontrol(timing,hidegroup,0.00,1);` - Hide timinggroup  
 # required files in Scenecontrol folder  
